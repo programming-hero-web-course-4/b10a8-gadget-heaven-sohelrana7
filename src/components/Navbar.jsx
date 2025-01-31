@@ -1,15 +1,32 @@
+import { CiHeart } from "react-icons/ci";
+import { LuShoppingCart } from "react-icons/lu";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navLinks = (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/statistics">Statistics</NavLink>
-      <NavLink to="/dashboard">Dashboard</NavLink>
+      <NavLink
+        className={({ isActive }) => ` ${isActive ? "text-[#9538E2]" : ""}`}
+        to="/"
+      >
+        Home
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => ` ${isActive ? "text-[#9538E2]" : ""}`}
+        to="/statistics"
+      >
+        Statistics
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => ` ${isActive ? "text-[#9538E2]" : ""}`}
+        to="/dashboard"
+      >
+        Dashboard
+      </NavLink>
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,8 +57,13 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-6">{navLinks}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-4">
+        <button className="btn btn-circle">
+          <LuShoppingCart size={20}></LuShoppingCart>
+        </button>
+        <button className="btn btn-circle">
+          <CiHeart size={20}></CiHeart>
+        </button>
       </div>
     </div>
   );

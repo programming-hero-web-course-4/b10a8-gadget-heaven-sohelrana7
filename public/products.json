@@ -1,0 +1,240 @@
+[
+  {
+    "product_id": "C001",
+    "product_title": "Apple MacBook Pro 16-inch",
+    "product_image": "https://i.ibb.co.com/GnKsj7S/MacBook.jpg",
+    "category": "Computer",
+    "price": 499,
+    "description": "Powerful M2 Max chip with a stunning Liquid Retina XDR display.",
+    "specification": [
+      "16.2-inch Liquid Retina XDR display",
+      "M2 Max chip",
+      "32GB RAM, 1TB SSD",
+      "macOS",
+      "Up to 22 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "C002",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/hYNR34G/dell.jpg",
+    "category": "Computer",
+    "price": 199,
+    "description": "Premium ultra-thin laptop with 4K OLED display.",
+    "specification": [
+      "15.6-inch 4K OLED display",
+      "Intel Core i9 13th Gen",
+      "32GB RAM, 1TB SSD",
+      "Windows 11",
+      "NVIDIA RTX 4060 GPU"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "C003",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/YbFzVDR/hp.png",
+    "category": "Computer",
+    "price": 399,
+    "description": "A 2-in-1 convertible laptop with touch display and stylus support.",
+    "specification": [
+      "13.5-inch OLED touchscreen",
+      "Intel Core i7 12th Gen",
+      "16GB RAM, 1TB SSD",
+      "Windows 11",
+      "360-degree hinge"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "C004",
+    "product_title": "Asus ROG Strix G16",
+    "product_image": "https://i.ibb.co.com/QMt7nJX/asus.jpg",
+    "category": "Computer",
+    "price": 199,
+    "description": "A high-performance gaming laptop with RTX 4080.",
+    "specification": [
+      "16-inch QHD 240Hz display",
+      "Intel Core i9 13th Gen",
+      "32GB RAM, 1TB SSD",
+      "Windows 11",
+      "NVIDIA RTX 4080 GPU"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "C005",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://i.ibb.co.com/FgSQ90r/lenovo.webp",
+    "category": "Computer",
+    "price": 699,
+    "description": "Business-class ultrabook with legendary keyboard and durability.",
+    "specification": [
+      "14-inch 2.8K display",
+      "Intel Core i7 12th Gen",
+      "16GB RAM, 1TB SSD",
+      "Windows 11",
+      "Fingerprint Reader"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "C006",
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://i.ibb.co.com/pvcxJ5q/microsoft.jpg",
+    "category": "Computer",
+    "price": 99,
+    "description": "Sleek and lightweight laptop with touchscreen display.",
+    "specification": [
+      "13.5-inch PixelSense display",
+      "Intel Core i7 12th Gen",
+      "16GB RAM, 512GB SSD",
+      "Windows 11",
+      "Alcantara keyboard"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/tHqJHNq/apple.jpg",
+    "category": "Phones",
+    "price": 299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP, 12MP, 12MP)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.ibb.co.com/ySLnDVK/samsung.jpg",
+    "category": "Phones",
+    "price": 199,
+    "description": "A premium smartphone with top-notch performance and camera.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X display",
+      "Snapdragon 8 Gen 2",
+      "200MP Quad-camera",
+      "S Pen support",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://i.ibb.co.com/dBx8DLX/google.webp",
+    "category": "Phones",
+    "price": 399,
+    "description": "Google's flagship phone with the best AI-powered camera.",
+    "specification": [
+      "6.7-inch LTPO AMOLED display",
+      "Google Tensor G2 chip",
+      "50MP triple-camera",
+      "Android 13",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "S001",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/ynGsRfB/apple-watch.webp",
+    "category": "Smart Watches",
+    "price": 499,
+    "description": "Advanced health tracking with the latest Apple technology.",
+    "specification": [
+      "Always-on Retina display",
+      "Blood Oxygen & ECG",
+      "Crash Detection",
+      "WatchOS 10",
+      "Up to 18 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "S002",
+    "product_title": "Samsung Galaxy Watch 5 Pro",
+    "product_image": "https://i.ibb.co.com/DfHnCvh/samsung-watch.png",
+    "category": "Smart Watches",
+    "price": 449,
+    "description": "A powerful smartwatch with fitness tracking and long battery life.",
+    "specification": [
+      "1.4-inch AMOLED display",
+      "Wear OS",
+      "GPS & Heart Rate Monitor",
+      "Titanium case",
+      "Up to 80 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "S003",
+    "product_title": "Garmin Fenix 7X",
+    "product_image": "https://i.ibb.co.com/vkncSpW/Garmin-watch.webp",
+    "category": "Smart Watches",
+    "price": 599,
+    "description": "Rugged GPS smartwatch built for extreme conditions.",
+    "specification": [
+      "1.4-inch sunlight-readable display",
+      "Solar charging",
+      "Pulse Oximeter",
+      "Topo maps",
+      "Up to 28 days battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "PB001",
+    "product_title": "Anker PowerCore 26800mAh",
+    "product_image": "https://i.ibb.co.com/ry64Hv6/anker-power-Bank.webp",
+    "category": "Power Bank",
+    "price": 79,
+    "description": "High-capacity power bank with fast charging.",
+    "specification": [
+      "26800mAh capacity",
+      "3 USB ports",
+      "18W fast charging",
+      "PowerIQ technology",
+      "Portable design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "PB002",
+    "product_title": "RAVPower 20000mAh",
+    "product_image": "https://i.ibb.co.com/Lg3SfbY/Rav-Power-Bank.jpg",
+    "category": "Power Bank",
+    "price": 59,
+    "description": "Compact and powerful power bank with USB-C.",
+    "specification": [
+      "20000mAh capacity",
+      "PD 3.0 fast charging",
+      "USB-C and USB-A ports",
+      "LED power indicator",
+      "Portable design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
